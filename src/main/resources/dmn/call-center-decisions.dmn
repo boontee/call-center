@@ -63,29 +63,29 @@
     <dmn:knowledgeRequirement id="_5B312661-7BA7-4148-A9DE-6B7B036BBFE8">
       <dmn:requiredKnowledge href="#_C8B101A4-71BE-4089-8AAE-7D589B0D6673"/>
     </dmn:knowledgeRequirement>
-    <dmn:context id="_71F6B7BE-C691-444E-A65C-77442C1159B3">
+    <dmn:context id="_D4D13D87-C8B6-4069-80EC-5E33922C7F98">
       <dmn:contextEntry>
-        <dmn:variable id="_6A05552C-DC66-4B68-98E8-82BA7DE4D2F4" name="Call can be handled" typeRef="boolean"/>
-        <dmn:invocation id="_D7F2E196-3779-4209-A6F1-F5704584D749">
-          <dmn:literalExpression id="_BAB675D1-63C6-4458-852E-7C2D793DDBA0">
+        <dmn:variable id="_36A9EEC7-AA14-4849-8476-FB4F38466FEA" name="Call can be handled" typeRef="boolean"/>
+        <dmn:invocation id="_C7131A0B-05B7-42E2-AC5D-72C019FD66AC">
+          <dmn:literalExpression id="_C642EEEE-77B0-4730-AE71-FAA775240CAA">
             <dmn:text>Can Handle Call</dmn:text>
           </dmn:literalExpression>
           <dmn:binding>
-            <dmn:parameter id="_C5339D18-7200-40F6-8D09-931A08379372" name="call" typeRef="tCall"/>
-            <dmn:literalExpression id="_BB28BE88-8016-4B17-A7A0-8739DFC792C6">
+            <dmn:parameter id="_3E709E0A-DBB6-482E-A1E5-8DDAD601590E" name="call" typeRef="tCall"/>
+            <dmn:literalExpression id="_B7ACB0B8-F7FB-4941-A4D2-CC3DC02EEFD5">
               <dmn:text>incoming call</dmn:text>
             </dmn:literalExpression>
           </dmn:binding>
         </dmn:invocation>
       </dmn:contextEntry>
       <dmn:contextEntry>
-        <dmn:variable id="_0A7047ED-FD86-43B7-9F85-CAC6AD7F4F58" name="Employee at the Office" typeRef="boolean"/>
-        <dmn:literalExpression id="_5047C557-9CD2-409A-91B7-A81FED79580C">
+        <dmn:variable id="_72EAE5AF-6753-42DE-BBF6-CB7D2963AD1F" name="Employee at the Office" typeRef="boolean"/>
+        <dmn:literalExpression id="_3D2866B3-CCAD-4D7A-98A2-C7BDB5949A6B">
           <dmn:text>employees[office location = office.location]</dmn:text>
         </dmn:literalExpression>
       </dmn:contextEntry>
       <dmn:contextEntry>
-        <dmn:literalExpression id="_599A868C-0EBC-45CC-B40C-52F64BC050F0">
+        <dmn:literalExpression id="_9725A5A1-CE0F-4127-9D4C-B21609509916">
           <dmn:text>if Call can be handled 
 then 
 count(Employee at the Office) &gt; 0
@@ -260,25 +260,25 @@ false</dmn:text>
     <dmndi:DMNDiagram id="_70F9D059-70D7-4F10-A9F3-825428714195" name="DRG">
       <di:extension>
         <kie:ComponentsWidthsExtension>
-          <kie:ComponentWidths dmnElementRef="_71F6B7BE-C691-444E-A65C-77442C1159B3">
+          <kie:ComponentWidths dmnElementRef="_D4D13D87-C8B6-4069-80EC-5E33922C7F98">
             <kie:width>50</kie:width>
             <kie:width>154</kie:width>
-            <kie:width>631</kie:width>
+            <kie:width>611</kie:width>
           </kie:ComponentWidths>
-          <kie:ComponentWidths dmnElementRef="_D7F2E196-3779-4209-A6F1-F5704584D749">
+          <kie:ComponentWidths dmnElementRef="_C7131A0B-05B7-42E2-AC5D-72C019FD66AC">
             <kie:width>50</kie:width>
             <kie:width>120</kie:width>
-            <kie:width>441</kie:width>
+            <kie:width>421</kie:width>
           </kie:ComponentWidths>
-          <kie:ComponentWidths dmnElementRef="_BAB675D1-63C6-4458-852E-7C2D793DDBA0"/>
-          <kie:ComponentWidths dmnElementRef="_BB28BE88-8016-4B17-A7A0-8739DFC792C6">
-            <kie:width>441</kie:width>
+          <kie:ComponentWidths dmnElementRef="_C642EEEE-77B0-4730-AE71-FAA775240CAA"/>
+          <kie:ComponentWidths dmnElementRef="_B7ACB0B8-F7FB-4941-A4D2-CC3DC02EEFD5">
+            <kie:width>421</kie:width>
           </kie:ComponentWidths>
-          <kie:ComponentWidths dmnElementRef="_5047C557-9CD2-409A-91B7-A81FED79580C">
-            <kie:width>631</kie:width>
+          <kie:ComponentWidths dmnElementRef="_3D2866B3-CCAD-4D7A-98A2-C7BDB5949A6B">
+            <kie:width>611</kie:width>
           </kie:ComponentWidths>
-          <kie:ComponentWidths dmnElementRef="_599A868C-0EBC-45CC-B40C-52F64BC050F0">
-            <kie:width>631</kie:width>
+          <kie:ComponentWidths dmnElementRef="_9725A5A1-CE0F-4127-9D4C-B21609509916">
+            <kie:width>611</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_309AE8F1-6106-4D96-8602-A31F2A37B288">
             <kie:width>50</kie:width>
